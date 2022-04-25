@@ -14,9 +14,9 @@ De website van McDonalds met informatie over McDonalds en het restaurant.
 De website van McDonalds heeft informatie over het menu, actuele informatie, services, extra informatie over voedsel kwaliteit en informatie wat je kan doen met je familie.
 
 ### First Contentful Paint (FCP)
-FCP meet hoe lang het duurt voordat de browser het eerste stuk DOM-inhoud weergeeft nadat een gebruiker naar de pagina heeft genavigeerd.
+*FCP meet hoe lang het duurt voordat de browser het eerste stuk DOM-inhoud weergeeft nadat een gebruiker naar de pagina heeft genavigeerd.*
 
-Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan bijvoorbeeld ervoor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
+De FCP voor McDonalds is 1.4 s. Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
 
 ### Time to Interactive (TTI)
 _Beschrijf de uitslag van de TTI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
