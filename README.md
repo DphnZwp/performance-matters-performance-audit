@@ -5,8 +5,12 @@
 
 
 ## ContentAudit
-Beschrijf de website die je hebt geanalyseerd en de datum dat je hebt getest. Voeg de url en een screenshot toe. 
+[https://www.mcdonalds.com/nl/nl-nl/familie.html](https://www.mcdonalds.com/nl/nl-nl/familie.html)
 
+### Getest op 25 april 2022
+![Schermafbeelding 2022-04-25 124608](https://user-images.githubusercontent.com/69635977/165074518-1e784926-fc35-4683-8eab-ecb384c3a98d.png)
+
+De website van McDonalds heeft informatie over het menu, actuele informatie, services, extra informatie over voedsel kwaliteit en informatie wat je kan doen met je familie.
 
 ### First Contentful Paint (FCP)
 _Beschrijf de uitslag van de FCP van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
