@@ -1,14 +1,15 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+De website van McDonalds met informatie over McDonalds en het restaurant.
 
+![1650884835813](https://user-images.githubusercontent.com/69635977/165077450-969547ec-0e65-45b6-8f6a-c456d1ae8b0a.png)
 
 ## ContentAudit
 [https://www.mcdonalds.com/nl/nl-nl/familie.html](https://www.mcdonalds.com/nl/nl-nl/familie.html)
 
 ### Getest op 25 april 2022
-![Schermafbeelding 2022-04-25 124608](https://user-images.githubusercontent.com/69635977/165074518-1e784926-fc35-4683-8eab-ecb384c3a98d.png)
+![Schermafbeelding 2022-04-25 125957](https://user-images.githubusercontent.com/69635977/165076452-4df619ec-0815-4641-8ec3-51ba1d10bce2.png)
 
 De website van McDonalds heeft informatie over het menu, actuele informatie, services, extra informatie over voedsel kwaliteit en informatie wat je kan doen met je familie.
 
