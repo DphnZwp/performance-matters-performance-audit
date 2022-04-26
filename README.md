@@ -25,7 +25,7 @@ De FCP van McDonalds is 1.3 s. Een probleem dat vooral belangrijk is voor FCP, i
 
 ![Schermafbeelding 2022-04-26 162131](https://user-images.githubusercontent.com/69635977/165328285-b06309d7-b56b-4887-bc70-a0ea3d7c993a.png)
 
-_Beschrijf de uitslag van de TTI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
+De TTI van McDonalds is 4.6 s.
 
 ### Speed Index
 *Speed Index meet hoe snel inhoud visueel wordt weergegeven tijdens het laden van de pagina.*
