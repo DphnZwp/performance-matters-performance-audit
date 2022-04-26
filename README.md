@@ -9,21 +9,23 @@ De website van McDonalds met informatie over McDonalds en het restaurant.
 [https://www.mcdonalds.com/nl/nl-nl/familie.html](https://www.mcdonalds.com/nl/nl-nl/familie.html)
 
 ### Getest op 25 april 2022
-![Schermafbeelding 2022-04-25 125957](https://user-images.githubusercontent.com/69635977/165076452-4df619ec-0815-4641-8ec3-51ba1d10bce2.png)
+![Schermafbeelding 2022-04-26 162004](https://user-images.githubusercontent.com/69635977/165322705-8541ddea-bfc7-4301-a8c8-1207df0027bf.png)
 
 De website van McDonalds heeft informatie over het menu, actuele informatie, services, extra informatie over voedsel kwaliteit en informatie wat je kan doen met je familie.
 
 ### First Contentful Paint (FCP)
 *FCP meet hoe lang het duurt voordat de browser het eerste stuk DOM-inhoud weergeeft nadat een gebruiker naar de pagina heeft genavigeerd.*
 
-![Schermafbeelding 2022-04-25 132811](https://user-images.githubusercontent.com/69635977/165080361-31bd1162-9f29-4f2f-b844-5f6c16571eea.png)
+![Schermafbeelding 2022-04-26 162037](https://user-images.githubusercontent.com/69635977/165322792-3ed2c536-e5a7-43eb-bce2-f1dd6a0b98c5.png)
 
-De FCP voor McDonalds is 1.4 s. Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
+De FCP van McDonalds is 1.3 s. Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
 
 ### Time to Interactive (TTI)
 _Beschrijf de uitslag van de TTI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
-
+![Schermafbeelding 2022-04-26 162131](https://user-images.githubusercontent.com/69635977/165322469-c44d1f80-d176-423b-9de6-bb225b77c5d6.png)
+De TTI van McDonalds is
 ### Speed Index
+
 _Beschrijf de uitslag van de SI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
 
 ### Total Blocking Time (TBT)
