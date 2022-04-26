@@ -23,9 +23,9 @@ De FCP van McDonalds is 1.3 s. Een probleem dat vooral belangrijk is voor FCP, i
 ### Time to Interactive (TTI)
 *TTI meet hoe lang het duurt voordat een pagina volledig interactief wordt.*
 
-![Schermafbeelding 2022-04-26 162131](https://user-images.githubusercontent.com/69635977/165328285-b06309d7-b56b-4887-bc70-a0ea3d7c993a.png)
+![Schermafbeelding 2022-04-26 165002](https://user-images.githubusercontent.com/69635977/165331140-e3e90e8d-acd0-4a1e-96b9-c603517e4af8.png)
 
-De TTI van McDonalds is 4.6 s.
+De TTI van McDonalds is 4.2 s.
 
 ### Speed Index
 *Speed Index meet hoe snel inhoud visueel wordt weergegeven tijdens het laden van de pagina.*
