@@ -21,12 +21,18 @@ De website van McDonalds heeft informatie over het menu, actuele informatie, ser
 De FCP van McDonalds is 1.3 s. Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
 
 ### Time to Interactive (TTI)
-_Beschrijf de uitslag van de TTI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
-![Schermafbeelding 2022-04-26 162131](https://user-images.githubusercontent.com/69635977/165322469-c44d1f80-d176-423b-9de6-bb225b77c5d6.png)
-De TTI van McDonalds is
-### Speed Index
+*TTI meet hoe lang het duurt voordat een pagina volledig interactief wordt.*
 
-_Beschrijf de uitslag van de SI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
+![Schermafbeelding 2022-04-26 162131](https://user-images.githubusercontent.com/69635977/165328285-b06309d7-b56b-4887-bc70-a0ea3d7c993a.png)
+
+_Beschrijf de uitslag van de TTI van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
+
+### Speed Index
+*Speed Index meet hoe snel inhoud visueel wordt weergegeven tijdens het laden van de pagina.*
+
+![Schermafbeelding 2022-04-26 162131](https://user-images.githubusercontent.com/69635977/165322469-c44d1f80-d176-423b-9de6-bb225b77c5d6.png)
+
+De Speed Index van McDonalds is 4.6 s.
 
 ### Total Blocking Time (TBT)
 _Beschrijf de uitslag van de TBT van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
