@@ -34,7 +34,7 @@ De FCP van McDonalds is 1.7 s. Een probleem dat vooral belangrijk is voor FCP, i
 
 ![Schermafbeelding 2022-04-26 172215](https://user-images.githubusercontent.com/69635977/165336466-6de0b2e6-a9ba-4966-a11e-5ee3325f905d.png)
 
-De TTI van McDonalds is 5.3 s.
+De TTI van McDonalds is 5.3 s. Een verbetering die een bijzonder groot effect kan hebben op TTI, is het uitstellen of verwijderen van onnodig JavaScript-werk. Naar mogelijkheden zoeken om de JavaScript te optimaliseren. Verder kunnen JavaScript-payloads verminderd worden door code te splitsen en het PRPL-patroon toe te passen. Het optimaliseren van JavaScript van derden levert voor sommige sites ook aanzienlijke verbeteringen op.
 
 ### Speed Index
 *Speed Index meet hoe snel inhoud visueel wordt weergegeven tijdens het laden van de pagina.*
@@ -50,12 +50,28 @@ De Speed Index van McDonalds is 4.7 s.
 
 De TBT van McDonalds is 1,410 ms.
 
+#### Diagnostiek
+- Minimize main-thread work
+- Reduce JavaScript execution time
+- Avoid an excessive DOM size
+- Avoid long main-thread tasks
+
 ### Largest Contentful Paint (LCP)
 *LCP meet wanneer het grootste inhoudselement in de viewport op het scherm wordt weergegeven. Dit benadert wanneer de hoofdinhoud van de pagina zichtbaar is voor gebruikers.*
 
 ![Schermafbeelding 2022-04-26 172306](https://user-images.githubusercontent.com/69635977/165336550-c568405a-ccfb-4dd1-b924-c9d00b5af628.png)
 
 De LCP van McDonalds is 0.29.
+
+#### Mogelijkheden
+- Reduce unused JavaScript
+- Preconnect to required origins
+- Eliminate render-blocking resources
+
+#### Diagnostiek
+- Ensure text remains visible during webfont load
+- Avoid enormous network payloads
+- Avoid chaining critical requests 
 
 ### Cumulative Layout Shift (CLS)
 _Beschrijf de uitslag van de CLS van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
@@ -64,7 +80,12 @@ _Beschrijf de uitslag van de CLS van de test en toon de resultaten. Beschrijf wa
 
 De CLS van McDonalds is 3.6 s.
 
+#### Diagnostiek
+- Image elements do not have explicit width and height
+- Avoid large layout shifts
+
 ## Bronnen
+[https://web.dev/](https://web.dev/)
 
 ## Licentie
 
