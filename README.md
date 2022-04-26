@@ -19,21 +19,21 @@ De website van McDonalds heeft informatie over het menu, actuele informatie, ser
 
 ![Schermafbeelding 2022-04-26 172201](https://user-images.githubusercontent.com/69635977/165336442-5c3ba9dc-d4f7-4bc8-aa77-3107d12d2ec8.png)
 
-De FCP van McDonalds is 1.3 s. Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
+De FCP van McDonalds is 1.7 s. Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
 
 ### Time to Interactive (TTI)
 *TTI meet hoe lang het duurt voordat een pagina volledig interactief wordt.*
 
 ![Schermafbeelding 2022-04-26 172215](https://user-images.githubusercontent.com/69635977/165336466-6de0b2e6-a9ba-4966-a11e-5ee3325f905d.png)
 
-De TTI van McDonalds is 4.2 s.
+De TTI van McDonalds is 5.3 s.
 
 ### Speed Index
 *Speed Index meet hoe snel inhoud visueel wordt weergegeven tijdens het laden van de pagina.*
 
 ![Schermafbeelding 2022-04-26 172233](https://user-images.githubusercontent.com/69635977/165336491-16ec1bca-d9bf-408e-8742-76bece13101f.png)
 
-De Speed Index van McDonalds is 4.6 s.
+De Speed Index van McDonalds is 4.7 s.
 
 ### Total Blocking Time (TBT)
 *TBT meet de totale hoeveelheid tijd dat een pagina is geblokkeerd om te reageren op gebruikersinvoer, zoals muisklikken, schermtikken of toetsenborddrukken. Het is een som van alle tijdsperioden tussen FCP en Time to Interactive, wanneer de taakduur meer dan 50 ms bedroeg, uitgedrukt in milliseconden.*
