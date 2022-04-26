@@ -35,6 +35,8 @@ De TTI van McDonalds is 4.2 s.
 De Speed Index van McDonalds is 4.6 s.
 
 ### Total Blocking Time (TBT)
+*meet de totale hoeveelheid tijd dat een pagina is geblokkeerd om te reageren op gebruikersinvoer, zoals muisklikken, schermtikken of toetsenborddrukken. Het is een som van alle tijdsperioden tussen FCP en Time to Interactive, wanneer de taakduur meer dan 50 ms bedroeg, uitgedrukt in milliseconden.*
+
 _Beschrijf de uitslag van de TBT van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
 
 ### Largest Contentful Paint (LCP)
