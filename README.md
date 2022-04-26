@@ -22,12 +22,12 @@ De website van McDonalds heeft informatie over het menu, actuele informatie, ser
 De FCP van McDonalds is 1.7 s. Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
 
 #### Mogelijkheden
-- Preconnect to required origins
-- Eliminate render-blocking resources
+- Maak vooraf verbinding met de vereiste bronnen
+- Render-blokkerende bronnen elimineren
 
 #### Diagnostiek
-- Ensure text remains visible during webfont load
-- Avoid chaining critical requests
+- Zorg ervoor dat tekst zichtbaar blijft tijdens het laden van webfonts
+- Vermijd het koppelen van kritieke verzoeken
 
 ### Time to Interactive (TTI)
 *TTI meet hoe lang het duurt voordat een pagina volledig interactief wordt.*
@@ -51,10 +51,10 @@ De Speed Index van McDonalds is 4.7 s.
 De TBT van McDonalds is 1,410 ms.
 
 #### Diagnostiek
-- Minimize main-thread work
-- Reduce JavaScript execution time
-- Avoid an excessive DOM size
-- Avoid long main-thread tasks
+- Minimaliseer werk in de hoofdthread
+- Verkort de uitvoeringstijd van JavaScript
+- Vermijd een buitensporige DOM-grootte
+- Vermijd lange hoofdthread-taken
 
 ### Largest Contentful Paint (LCP)
 *LCP meet wanneer het grootste inhoudselement in de viewport op het scherm wordt weergegeven. Dit benadert wanneer de hoofdinhoud van de pagina zichtbaar is voor gebruikers.*
@@ -64,14 +64,14 @@ De TBT van McDonalds is 1,410 ms.
 De LCP van McDonalds is 0.29.
 
 #### Mogelijkheden
-- Reduce unused JavaScript
-- Preconnect to required origins
-- Eliminate render-blocking resources
+- Verminder ongebruikt JavaScript
+- Maak vooraf verbinding met de vereiste bronnen
+- Render-blokkerende bronnen elimineren
 
 #### Diagnostiek
-- Ensure text remains visible during webfont load
-- Avoid enormous network payloads
-- Avoid chaining critical requests 
+- Zorg ervoor dat tekst zichtbaar blijft tijdens het laden van webfonts
+- Vermijd enorme netwerkbelastingen
+- Vermijd het koppelen van kritieke verzoeken
 
 ### Cumulative Layout Shift (CLS)
 _Beschrijf de uitslag van de CLS van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
@@ -81,8 +81,8 @@ _Beschrijf de uitslag van de CLS van de test en toon de resultaten. Beschrijf wa
 De CLS van McDonalds is 3.6 s.
 
 #### Diagnostiek
-- Image elements do not have explicit width and height
-- Avoid large layout shifts
+- Afbeeldingselementen hebben geen expliciete breedte en hoogte
+- Vermijd grote lay-outverschuivingen
 
 ## Bronnen
 [https://web.dev/](https://web.dev/)
