@@ -9,40 +9,46 @@ De website van McDonalds met informatie over McDonalds en het restaurant.
 [https://www.mcdonalds.com/nl/nl-nl/familie.html](https://www.mcdonalds.com/nl/nl-nl/familie.html)
 
 ### Getest op 25 april 2022
-![Schermafbeelding 2022-04-26 162004](https://user-images.githubusercontent.com/69635977/165322705-8541ddea-bfc7-4301-a8c8-1207df0027bf.png)
+
+![Schermafbeelding 2022-04-26 172132](https://user-images.githubusercontent.com/69635977/165336369-a1fc4b34-5761-49c8-9e14-53391fdc987c.png)
 
 De website van McDonalds heeft informatie over het menu, actuele informatie, services, extra informatie over voedsel kwaliteit en informatie wat je kan doen met je familie.
 
 ### First Contentful Paint (FCP)
 *FCP meet hoe lang het duurt voordat de browser het eerste stuk DOM-inhoud weergeeft nadat een gebruiker naar de pagina heeft genavigeerd.*
 
-![Schermafbeelding 2022-04-26 162037](https://user-images.githubusercontent.com/69635977/165322792-3ed2c536-e5a7-43eb-bce2-f1dd6a0b98c5.png)
+![Schermafbeelding 2022-04-26 172201](https://user-images.githubusercontent.com/69635977/165336442-5c3ba9dc-d4f7-4bc8-aa77-3107d12d2ec8.png)
 
 De FCP van McDonalds is 1.3 s. Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
 
 ### Time to Interactive (TTI)
 *TTI meet hoe lang het duurt voordat een pagina volledig interactief wordt.*
 
-![Schermafbeelding 2022-04-26 165002](https://user-images.githubusercontent.com/69635977/165331140-e3e90e8d-acd0-4a1e-96b9-c603517e4af8.png)
+![Schermafbeelding 2022-04-26 172215](https://user-images.githubusercontent.com/69635977/165336466-6de0b2e6-a9ba-4966-a11e-5ee3325f905d.png)
 
 De TTI van McDonalds is 4.2 s.
 
 ### Speed Index
 *Speed Index meet hoe snel inhoud visueel wordt weergegeven tijdens het laden van de pagina.*
 
-![Schermafbeelding 2022-04-26 162131](https://user-images.githubusercontent.com/69635977/165322469-c44d1f80-d176-423b-9de6-bb225b77c5d6.png)
+![Schermafbeelding 2022-04-26 172233](https://user-images.githubusercontent.com/69635977/165336491-16ec1bca-d9bf-408e-8742-76bece13101f.png)
 
 De Speed Index van McDonalds is 4.6 s.
 
 ### Total Blocking Time (TBT)
 *TBT meet de totale hoeveelheid tijd dat een pagina is geblokkeerd om te reageren op gebruikersinvoer, zoals muisklikken, schermtikken of toetsenborddrukken. Het is een som van alle tijdsperioden tussen FCP en Time to Interactive, wanneer de taakduur meer dan 50 ms bedroeg, uitgedrukt in milliseconden.*
 
+![Schermafbeelding 2022-04-26 172248](https://user-images.githubusercontent.com/69635977/165336532-1d6eeb91-d91d-41ce-8efc-c0d91c806219.png)
 
 ### Largest Contentful Paint (LCP)
 _Beschrijf de uitslag van de LCP van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
 
+![Schermafbeelding 2022-04-26 172306](https://user-images.githubusercontent.com/69635977/165336550-c568405a-ccfb-4dd1-b924-c9d00b5af628.png)
+
 ### Cumulative Layout Shift (CLS)
 _Beschrijf de uitslag van de CLS van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
+
+![Schermafbeelding 2022-04-26 172321](https://user-images.githubusercontent.com/69635977/165336573-ecb47bea-28c1-4f99-8d97-c6d693f294da.png)
 
 ## Bronnen
 
