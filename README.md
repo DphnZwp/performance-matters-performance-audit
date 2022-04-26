@@ -21,6 +21,14 @@ De website van McDonalds heeft informatie over het menu, actuele informatie, ser
 
 De FCP van McDonalds is 1.7 s. Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
 
+#### Mogelijkheden
+- Preconnect to required origins
+- Eliminate render-blocking resources
+
+#### Diagnostiek
+- Ensure text remains visible during webfont load
+- Avoid chaining critical requests
+
 ### Time to Interactive (TTI)
 *TTI meet hoe lang het duurt voordat een pagina volledig interactief wordt.*
 
