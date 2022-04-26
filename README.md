@@ -3,7 +3,7 @@
 # Titel
 De website van McDonalds met informatie over McDonalds en het restaurant.
 
-![Gmail Screenshot by cloudHQ 26-4-2022 18_42_20](https://user-images.githubusercontent.com/69635977/165350731-4b03f645-8f52-49bb-8e35-8465b5acc37e.png)
+![FireShot Capture 001 - McDonald's Nederland - McDonald's - www mcdonalds com](https://user-images.githubusercontent.com/69635977/165350946-9b283b0a-08c8-493d-a5d8-e393ee97f601.png)
 
 ## ContentAudit
 De website van McDonalds heeft informatie over het menu, actuele informatie, services, extra informatie over voedsel kwaliteit en informatie wat je kan doen met je familie. Ik heb een performance analyse gedaan voor deze website.
