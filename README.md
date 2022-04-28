@@ -17,7 +17,8 @@ Getest op 25 april 2022
 ![Schermafbeelding 2022-04-26 172132](https://user-images.githubusercontent.com/69635977/165336369-a1fc4b34-5761-49c8-9e14-53391fdc987c.png)
 
 ### Netwerk test
-![Schermafbeelding 2022-04-28 232523](https://user-images.githubusercontent.com/69635977/165848528-d7c3b8a3-b101-471a-ba07-fa81172a2f06.png)
+De website heeft 86 requests en is na 21.86 s klaar met laden wanneer er snelle 3g internet is zonder cache. 
+![Schermafbeelding 2022-04-28 233046](https://user-images.githubusercontent.com/69635977/165849135-10f7c71d-d5cc-4f70-8b2e-d57657e244c9.png)
 
 ### First Contentful Paint (FCP)
 *FCP meet hoe lang het duurt voordat de browser het eerste stuk DOM-inhoud weergeeft nadat een gebruiker naar de pagina heeft genavigeerd.*
