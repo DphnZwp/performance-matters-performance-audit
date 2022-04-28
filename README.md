@@ -56,8 +56,8 @@ De Speed Index van McDonalds is 4.7 s.
 De TBT van McDonalds is 1,410 ms. 
 
 #### Over het algemeen zijn de meest voorkomende oorzaken van lange taken:
-- Onnodig laden, parseren of uitvoeren van JavaScript. Tijdens het analyseren van uw code in het Performance-paneel ontdekt u misschien dat de hoofdthread werk doet dat niet echt nodig is om de pagina te laden. Het verminderen van JavaScript-payloads met codesplitsing, het verwijderen van ongebruikte code of het efficiënt laden van JavaScript van derden zou uw TBT-score moeten verbeteren.
-- Inefficiënte JavaScript-instructies. Stel dat u na analyse van uw code in het deelvenster Prestaties een aanroep ziet naar document.querySelectorAll('a') die 2000 nodes retourneert. Door uw code te herstructureren om een meer specifieke selector te gebruiken die slechts 10 nodes retourneert, zou uw TBT-score moeten verbeteren.
+- Onnodig laden, parseren of uitvoeren van JavaScript. Tijdens het analyseren van de code in het Performance-paneel ontdek je misschien dat de hoofdthread werk doet dat niet echt nodig is om de pagina te laden. Het verminderen van JavaScript-payloads met codesplitsing, het verwijderen van ongebruikte code of het efficiënt laden van JavaScript van derden zou de TBT-score moeten verbeteren.
+- Inefficiënte JavaScript-instructies. Stel dat je na analyse van de code in het deelvenster Performance een aanroep ziet naar document.querySelectorAll('a') die 2000 nodes retourneert. Door de code te herstructureren om een meer specifieke selector te gebruiken die slechts 10 nodes retourneert, zou de TBT-score moeten verbeteren.
 
 #### Diagnostiek
 - Minimaliseer werk in de hoofdthread
