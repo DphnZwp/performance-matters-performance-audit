@@ -108,7 +108,8 @@ De CLS van McDonalds is 3.6 s.
 - Vermijd grote lay-outverschuivingen
 
 ## Bronnen
-[https://web.dev/](https://web.dev/)
+- [https://developers.google.com/web/tools/lighthouse](https://developers.google.com/web/tools/lighthouse)
+- [https://web.dev/](https://web.dev/)
 
 ## Licentie
 
