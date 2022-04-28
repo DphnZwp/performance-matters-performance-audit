@@ -98,7 +98,7 @@ Een verbetering die een bijzonder groot effect kan hebben op TTI, is het uitstel
 - Vermijd het koppelen van kritieke verzoeken
 
 ### Cumulative Layout Shift (CLS)
-_Beschrijf de uitslag van de CLS van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
+*CLS meet de beweging van zichtbare elementen binnen de viewport.*
 
 #### De CLS van McDonalds is 0.29
 ![Schermafbeelding 2022-04-26 172321](https://user-images.githubusercontent.com/69635977/165336573-ecb47bea-28c1-4f99-8d97-c6d693f294da.png)
