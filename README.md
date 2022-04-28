@@ -19,9 +19,10 @@ Getest op 25 april 2022
 ### First Contentful Paint (FCP)
 *FCP meet hoe lang het duurt voordat de browser het eerste stuk DOM-inhoud weergeeft nadat een gebruiker naar de pagina heeft genavigeerd.*
 
+#### De FCP van McDonalds is 1.7 s
 ![Schermafbeelding 2022-04-26 172201](https://user-images.githubusercontent.com/69635977/165336442-5c3ba9dc-d4f7-4bc8-aa77-3107d12d2ec8.png)
 
-De FCP van McDonalds is 1.7 s. Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
+Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
 
 #### Mogelijkheden
 - Maak vooraf verbinding met de vereiste bronnen
@@ -34,16 +35,16 @@ De FCP van McDonalds is 1.7 s. Een probleem dat vooral belangrijk is voor FCP, i
 ### Time to Interactive (TTI)
 *TTI meet hoe lang het duurt voordat een pagina volledig interactief wordt.*
 
+#### De TTI van McDonalds is 5.3 s
 ![Schermafbeelding 2022-04-26 172215](https://user-images.githubusercontent.com/69635977/165336466-6de0b2e6-a9ba-4966-a11e-5ee3325f905d.png)
 
-De TTI van McDonalds is 5.3 s. Een verbetering die een bijzonder groot effect kan hebben op TTI, is het uitstellen of verwijderen van onnodig JavaScript-werk. Naar mogelijkheden zoeken om de JavaScript te optimaliseren. Verder kunnen JavaScript-payloads verminderd worden door code te splitsen en het PRPL-patroon toe te passen. Het optimaliseren van JavaScript van derden levert voor sommige sites ook aanzienlijke verbeteringen op.
+Een verbetering die een bijzonder groot effect kan hebben op TTI, is het uitstellen of verwijderen van onnodig JavaScript-werk. Naar mogelijkheden zoeken om de JavaScript te optimaliseren. Verder kunnen JavaScript-payloads verminderd worden door code te splitsen en het PRPL-patroon toe te passen. Het optimaliseren van JavaScript van derden levert voor sommige sites ook aanzienlijke verbeteringen op.
 
 ### Speed Index
 *Speed Index meet hoe snel inhoud visueel wordt weergegeven tijdens het laden van de pagina.*
 
-![Schermafbeelding 2022-04-26 172233](https://user-images.githubusercontent.com/69635977/165336491-16ec1bca-d9bf-408e-8742-76bece13101f.png)
-
-De Speed Index van McDonalds is 4.7 s. 
+#### De Speed Index van McDonalds is 4.7 s
+![Schermafbeelding 2022-04-26 172233](https://user-images.githubusercontent.com/69635977/165336491-16ec1bca-d9bf-408e-8742-76bece13101f.png) 
 
 #### Hoewel alles wat je kan doen om de laadsnelheid van de pagina te verbeteren, de snelheidsindexscore zal verbeteren, zou het aanpakken van problemen die door deze diagnostische audits worden ontdekt, een bijzonder grote impact moeten hebben:
 - Minimaliseer het hoofddraadwerk
@@ -53,9 +54,8 @@ De Speed Index van McDonalds is 4.7 s.
 ### Total Blocking Time (TBT)
 *TBT meet de totale hoeveelheid tijd dat een pagina is geblokkeerd om te reageren op gebruikersinvoer, zoals muisklikken, schermtikken of toetsenborddrukken. Het is een som van alle tijdsperioden tussen FCP en Time to Interactive, wanneer de taakduur meer dan 50 ms bedroeg, uitgedrukt in milliseconden.*
 
+#### De TBT van McDonalds is 1,410 ms
 ![Schermafbeelding 2022-04-26 172248](https://user-images.githubusercontent.com/69635977/165336532-1d6eeb91-d91d-41ce-8efc-c0d91c806219.png)
-
-De TBT van McDonalds is 1,410 ms. 
 
 #### Over het algemeen zijn de meest voorkomende oorzaken van lange taken:
 - Onnodig laden, parseren of uitvoeren van JavaScript. Tijdens het analyseren van de code in het Performance-paneel ontdek je misschien dat de hoofdthread werk doet dat niet echt nodig is om de pagina te laden. Het verminderen van JavaScript-payloads met codesplitsing, het verwijderen van ongebruikte code of het efficiënt laden van JavaScript van derden zou de TBT-score moeten verbeteren.
@@ -70,9 +70,8 @@ De TBT van McDonalds is 1,410 ms.
 ### Largest Contentful Paint (LCP)
 *LCP meet wanneer het grootste inhoudselement in de viewport op het scherm wordt weergegeven. Dit benadert wanneer de hoofdinhoud van de pagina zichtbaar is voor gebruikers.*
 
-![Schermafbeelding 2022-04-26 172306](https://user-images.githubusercontent.com/69635977/165336550-c568405a-ccfb-4dd1-b924-c9d00b5af628.png)
-
-De LCP van McDonalds is 0.29. 
+#### De LCP van McDonalds is 0.29
+![Schermafbeelding 2022-04-26 172306](https://user-images.githubusercontent.com/69635977/165336550-c568405a-ccfb-4dd1-b924-c9d00b5af628.png) 
 
 #### LCP wordt voornamelijk beïnvloed door vier factoren:
 - Trage serverreactietijden
@@ -101,9 +100,8 @@ De LCP van McDonalds is 0.29.
 ### Cumulative Layout Shift (CLS)
 _Beschrijf de uitslag van de CLS van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
 
+#### De CLS van McDonalds is 3.6 s
 ![Schermafbeelding 2022-04-26 172321](https://user-images.githubusercontent.com/69635977/165336573-ecb47bea-28c1-4f99-8d97-c6d693f294da.png)
-
-De CLS van McDonalds is 3.6 s.
 
 #### Diagnostiek
 - Afbeeldingselementen hebben geen expliciete breedte en hoogte
