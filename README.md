@@ -16,7 +16,7 @@ Getest op 25 april 2022
 
 ![Schermafbeelding 2022-04-26 172132](https://user-images.githubusercontent.com/69635977/165336369-a1fc4b34-5761-49c8-9e14-53391fdc987c.png)
 
-### Network test
+### Netwerk test
 ![Schermafbeelding 2022-04-28 232523](https://user-images.githubusercontent.com/69635977/165848528-d7c3b8a3-b101-471a-ba07-fa81172a2f06.png)
 
 ### First Contentful Paint (FCP)
