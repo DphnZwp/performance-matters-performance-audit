@@ -16,6 +16,9 @@ Getest op 25 april 2022
 
 ![Schermafbeelding 2022-04-26 172132](https://user-images.githubusercontent.com/69635977/165336369-a1fc4b34-5761-49c8-9e14-53391fdc987c.png)
 
+### Network test
+![Schermafbeelding 2022-04-28 232523](https://user-images.githubusercontent.com/69635977/165848528-d7c3b8a3-b101-471a-ba07-fa81172a2f06.png)
+
 ### First Contentful Paint (FCP)
 *FCP meet hoe lang het duurt voordat de browser het eerste stuk DOM-inhoud weergeeft nadat een gebruiker naar de pagina heeft genavigeerd.*
 
@@ -108,7 +111,7 @@ Een uitbarsting van lay-outverschuivingen, ook wel een sessievenster genoemd, is
 De grootste burst is het sessievenster met de maximale cumulatieve score van alle lay-outverschuivingen binnen dat venster.
 
 #### Voor de meeste websites kun je alle onverwachte lay-outverschuivingen vermijden door je aan een paar leidende principes te houden:
-- Voeg altijd maatkenmerken toe aan uw afbeeldingen en video-elementen, of reserveer op een andere manier de vereiste ruimte met bijvoorbeeld CSS-beeldverhoudingsvakken. Deze aanpak zorgt ervoor dat de browser de juiste hoeveelheid ruimte in het document kan toewijzen terwijl de afbeelding wordt geladen. Houd er rekening mee dat u ook het functiebeleid voor media zonder formaat kunt gebruiken om dit gedrag te forceren in browsers die functiebeleid ondersteunen.
+- Voeg altijd maatkenmerken toe aan afbeeldingen en video-elementen, of reserveer op een andere manier de vereiste ruimte met bijvoorbeeld [CSS aspect ratio boxes](https://css-tricks.com/aspect-ratio-boxes/). Deze aanpak zorgt ervoor dat de browser de juiste hoeveelheid ruimte in het document kan toewijzen terwijl de afbeelding wordt geladen. Houd er rekening mee dat u ook het [functiebeleid voor media zonder formaat](https://github.com/w3c/webappsec-permissions-policy/blob/main/policies/unsized-media.md) kunt gebruiken om dit gedrag te forceren in browsers die functiebeleid ondersteunen.
 - Plaats nooit inhoud boven bestaande inhoud, behalve als reactie op een gebruikersinteractie. Dit zorgt ervoor dat eventuele lay-outverschuivingen worden verwacht.
 - Geef de voorkeur aan het transformeren van animaties naar animaties van eigenschappen die lay-outwijzigingen veroorzaken. Animeer overgangen op een manier die context en continuïteit van staat tot staat biedt.
 
@@ -122,6 +125,8 @@ De grootste burst is het sessievenster met de maximale cumulatieve score van all
 ## Bronnen
 - [https://developers.google.com/web/tools/lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [https://web.dev/](https://web.dev/)
+- [https://css-tricks.com/aspect-ratio-boxes/](https://css-tricks.com/aspect-ratio-boxes/)
+- [https://github.com/w3c/webappsec-permissions-policy/blob/main/policies/unsized-media.md](https://github.com/w3c/webappsec-permissions-policy/blob/main/policies/unsized-media.md)
 
 ## Licentie
 
