@@ -70,7 +70,7 @@ Een verbetering die een bijzonder groot effect kan hebben op TTI, is het uitstel
 ### Largest Contentful Paint (LCP)
 *LCP meet wanneer het grootste inhoudselement in de viewport op het scherm wordt weergegeven. Dit benadert wanneer de hoofdinhoud van de pagina zichtbaar is voor gebruikers.*
 
-#### De LCP van McDonalds is 0.29
+#### De LCP van McDonalds is 3.6 s
 ![Schermafbeelding 2022-04-26 172306](https://user-images.githubusercontent.com/69635977/165336550-c568405a-ccfb-4dd1-b924-c9d00b5af628.png) 
 
 #### LCP wordt voornamelijk beïnvloed door vier factoren:
@@ -100,7 +100,7 @@ Een verbetering die een bijzonder groot effect kan hebben op TTI, is het uitstel
 ### Cumulative Layout Shift (CLS)
 _Beschrijf de uitslag van de CLS van de test en toon de resultaten. Beschrijf wat kan worden verbeterd als de score minder dan 90 is._
 
-#### De CLS van McDonalds is 3.6 s
+#### De CLS van McDonalds is 0.29
 ![Schermafbeelding 2022-04-26 172321](https://user-images.githubusercontent.com/69635977/165336573-ecb47bea-28c1-4f99-8d97-c6d693f294da.png)
 
 #### Diagnostiek
