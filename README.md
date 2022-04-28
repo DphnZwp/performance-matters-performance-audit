@@ -24,11 +24,11 @@ Getest op 25 april 2022
 
 Een probleem dat vooral belangrijk is voor FCP, is de laadtijd van lettertypen. Ik kan er bijvoorbeeld voor zorgen dat tekst zichtbaar blijft tijdens het laden van webfonts.
 
-#### Mogelijkheden
+#### Mogelijkheden van McDonalds
 - Maak vooraf verbinding met de vereiste bronnen
 - Render-blokkerende bronnen elimineren
 
-#### Diagnostiek
+#### Diagnostiek van McDonalds
 - Zorg ervoor dat tekst zichtbaar blijft tijdens het laden van webfonts
 - Vermijd het koppelen van kritieke verzoeken
 
@@ -61,7 +61,7 @@ Een verbetering die een bijzonder groot effect kan hebben op TTI, is het uitstel
 - Onnodig laden, parseren of uitvoeren van JavaScript. Tijdens het analyseren van de code in het Performance-paneel ontdek je misschien dat de hoofdthread werk doet dat niet echt nodig is om de pagina te laden. Het verminderen van JavaScript-payloads met codesplitsing, het verwijderen van ongebruikte code of het efficiënt laden van JavaScript van derden zou de TBT-score moeten verbeteren.
 - Inefficiënte JavaScript-instructies. Stel dat je na analyse van de code in het deelvenster Performance een aanroep ziet naar document.querySelectorAll('a') die 2000 nodes retourneert. Door de code te herstructureren om een meer specifieke selector te gebruiken die slechts 10 nodes retourneert, zou de TBT-score moeten verbeteren.
 
-#### Diagnostiek
+#### Diagnostiek van McDonalds
 - Minimaliseer werk in de hoofdthread
 - Verkort de uitvoeringstijd van JavaScript
 - Vermijd een buitensporige DOM-grootte
@@ -87,12 +87,12 @@ Een verbetering die een bijzonder groot effect kan hebben op TTI, is het uitstel
 - Weblettertypen optimaliseren
 - Optimaliseer van JavaScript (voor client-rendered sites)
 
-#### Mogelijkheden
+#### Mogelijkheden van McDonalds
 - Verminder ongebruikt JavaScript
 - Maak vooraf verbinding met de vereiste bronnen
 - Render-blokkerende bronnen elimineren
 
-#### Diagnostiek
+#### Diagnostiek van McDonalds
 - Zorg ervoor dat tekst zichtbaar blijft tijdens het laden van webfonts
 - Vermijd enorme netwerkbelastingen
 - Vermijd het koppelen van kritieke verzoeken
@@ -115,7 +115,7 @@ De grootste burst is het sessievenster met de maximale cumulatieve score van all
 #### De CLS van McDonalds is 0.29
 ![Schermafbeelding 2022-04-26 172321](https://user-images.githubusercontent.com/69635977/165336573-ecb47bea-28c1-4f99-8d97-c6d693f294da.png)
 
-#### Diagnostiek
+#### Diagnostiek van McDonalds
 - Afbeeldingselementen hebben geen expliciete breedte en hoogte
 - Vermijd grote lay-outverschuivingen
 
