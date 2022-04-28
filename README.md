@@ -41,7 +41,10 @@ De TTI van McDonalds is 5.3 s. Een verbetering die een bijzonder groot effect ka
 
 ![Schermafbeelding 2022-04-26 172233](https://user-images.githubusercontent.com/69635977/165336491-16ec1bca-d9bf-408e-8742-76bece13101f.png)
 
-De Speed Index van McDonalds is 4.7 s.
+De Speed Index van McDonalds is 4.7 s. Hoewel alles wat je kan doen om de laadsnelheid van de pagina te verbeteren, de snelheidsindexscore zal verbeteren, zou het aanpakken van problemen die door deze diagnostische audits worden ontdekt, een bijzonder grote impact moeten hebben:
+- Minimaliseer het hoofddraadwerk
+- Verkort de uitvoeringstijd van JavaScript
+- Zorg ervoor dat tekst zichtbaar blijft tijdens het laden van webfonts
 
 ### Total Blocking Time (TBT)
 *TBT meet de totale hoeveelheid tijd dat een pagina is geblokkeerd om te reageren op gebruikersinvoer, zoals muisklikken, schermtikken of toetsenborddrukken. Het is een som van alle tijdsperioden tussen FCP en Time to Interactive, wanneer de taakduur meer dan 50 ms bedroeg, uitgedrukt in milliseconden.*
