@@ -17,8 +17,15 @@ Getest op 25 april 2022
 ![Schermafbeelding 2022-04-26 172132](https://user-images.githubusercontent.com/69635977/165336369-a1fc4b34-5761-49c8-9e14-53391fdc987c.png)
 
 ### Netwerk test
-De website heeft 86 requests en is na 21.86 s klaar met laden wanneer er snelle 3g internet is zonder cache. 
+De website heeft 86 requests en heeft een finish tijd van 21.86 s en een load tijd van 21.03 s wanneer er snelle 3g internet is zonder cache.
+
+De *Finish* tijd in Chrome Devtools bevat de asynchroon laden (niet -blokkerende) objecten/-elementen op de pagina die kunnen blijven downloaden na de ONLOAD -gebeurtenis voor de pagina is ontslagen.
+
+De reactietijd voor een website betekent in het algemeen de *Load* tijd, omdat dat de gebruiker waarneembaar is, en op dit punt kan de gebruiker zien dat de browser is voltooid en de pagina klaar is op hun scherm.
+
 ![Schermafbeelding 2022-04-28 233046](https://user-images.githubusercontent.com/69635977/165849135-10f7c71d-d5cc-4f70-8b2e-d57657e244c9.png)
+
+
 
 ### First Contentful Paint (FCP)
 *FCP meet hoe lang het duurt voordat de browser het eerste stuk DOM-inhoud weergeeft nadat een gebruiker naar de pagina heeft genavigeerd.*
