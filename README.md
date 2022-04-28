@@ -8,7 +8,8 @@ De website van McDonalds met informatie over McDonalds en het restaurant.
 ## ContentAudit
 De website van McDonalds heeft informatie over het menu, actuele informatie, services, extra informatie over voedsel kwaliteit en informatie wat je kan doen met je familie. Ik heb een performance analyse gedaan voor deze website.
 
-### Getest op 25 april 2022
+### Datum
+Getest op 25 april 2022
 ![Schermafbeelding 2022-04-26 172132](https://user-images.githubusercontent.com/69635977/165336369-a1fc4b34-5761-49c8-9e14-53391fdc987c.png)
 
 ### Link
