@@ -98,7 +98,14 @@ Een verbetering die een bijzonder groot effect kan hebben op TTI, is het uitstel
 - Vermijd het koppelen van kritieke verzoeken
 
 ### Cumulative Layout Shift (CLS)
-*CLS meet de beweging van zichtbare elementen binnen de viewport.*
+*CLS meet de beweging van zichtbare elementen binnen de viewport. Het is een meting voor de grootste uitbarsting van lay-outverschuivingsscores voor elke onverwachte lay-outverschuiving die optreedt gedurende de gehele levensduur van een pagina.*
+
+#### Wat is een lay-outverschuiving?
+Een lay-outverschuiving vindt plaats wanneer een zichtbaar element van positie verandert van het ene weergegeven frame naar het volgende.
+
+Een uitbarsting van lay-outverschuivingen, ook wel een sessievenster genoemd, is wanneer een of meer individuele lay-outverschuivingen snel achter elkaar plaatsvinden met minder dan 1 seconde tussen elke shift en een maximum van 5 seconden voor de totale duur van het venster.
+
+De grootste burst is het sessievenster met de maximale cumulatieve score van alle lay-outverschuivingen binnen dat venster.
 
 #### De CLS van McDonalds is 0.29
 ![Schermafbeelding 2022-04-26 172321](https://user-images.githubusercontent.com/69635977/165336573-ecb47bea-28c1-4f99-8d97-c6d693f294da.png)
