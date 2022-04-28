@@ -41,7 +41,9 @@ De TTI van McDonalds is 5.3 s. Een verbetering die een bijzonder groot effect ka
 
 ![Schermafbeelding 2022-04-26 172233](https://user-images.githubusercontent.com/69635977/165336491-16ec1bca-d9bf-408e-8742-76bece13101f.png)
 
-De Speed Index van McDonalds is 4.7 s. Hoewel alles wat je kan doen om de laadsnelheid van de pagina te verbeteren, de snelheidsindexscore zal verbeteren, zou het aanpakken van problemen die door deze diagnostische audits worden ontdekt, een bijzonder grote impact moeten hebben:
+De Speed Index van McDonalds is 4.7 s. 
+
+Hoewel alles wat je kan doen om de laadsnelheid van de pagina te verbeteren, de snelheidsindexscore zal verbeteren, zou het aanpakken van problemen die door deze diagnostische audits worden ontdekt, een bijzonder grote impact moeten hebben:
 - Minimaliseer het hoofddraadwerk
 - Verkort de uitvoeringstijd van JavaScript
 - Zorg ervoor dat tekst zichtbaar blijft tijdens het laden van webfonts
@@ -51,7 +53,11 @@ De Speed Index van McDonalds is 4.7 s. Hoewel alles wat je kan doen om de laadsn
 
 ![Schermafbeelding 2022-04-26 172248](https://user-images.githubusercontent.com/69635977/165336532-1d6eeb91-d91d-41ce-8efc-c0d91c806219.png)
 
-De TBT van McDonalds is 1,410 ms.
+De TBT van McDonalds is 1,410 ms. 
+
+Over het algemeen zijn de meest voorkomende oorzaken van lange taken:
+- Onnodig laden, parseren of uitvoeren van JavaScript. Tijdens het analyseren van uw code in het Performance-paneel ontdekt u misschien dat de hoofdthread werk doet dat niet echt nodig is om de pagina te laden. Het verminderen van JavaScript-payloads met codesplitsing, het verwijderen van ongebruikte code of het efficiënt laden van JavaScript van derden zou uw TBT-score moeten verbeteren.
+- Inefficiënte JavaScript-instructies. Stel dat u na analyse van uw code in het deelvenster Prestaties een aanroep ziet naar document.querySelectorAll('a') die 2000 nodes retourneert. Door uw code te herstructureren om een meer specifieke selector te gebruiken die slechts 10 nodes retourneert, zou uw TBT-score moeten verbeteren.
 
 #### Diagnostiek
 - Minimaliseer werk in de hoofdthread
