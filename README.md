@@ -107,6 +107,11 @@ Een uitbarsting van lay-outverschuivingen, ook wel een sessievenster genoemd, is
 
 De grootste burst is het sessievenster met de maximale cumulatieve score van alle lay-outverschuivingen binnen dat venster.
 
+#### Voor de meeste websites kun je alle onverwachte lay-outverschuivingen vermijden door je aan een paar leidende principes te houden:
+- Voeg altijd maatkenmerken toe aan uw afbeeldingen en video-elementen, of reserveer op een andere manier de vereiste ruimte met bijvoorbeeld CSS-beeldverhoudingsvakken. Deze aanpak zorgt ervoor dat de browser de juiste hoeveelheid ruimte in het document kan toewijzen terwijl de afbeelding wordt geladen. Houd er rekening mee dat u ook het functiebeleid voor media zonder formaat kunt gebruiken om dit gedrag te forceren in browsers die functiebeleid ondersteunen.
+- Plaats nooit inhoud boven bestaande inhoud, behalve als reactie op een gebruikersinteractie. Dit zorgt ervoor dat eventuele lay-outverschuivingen worden verwacht.
+- Geef de voorkeur aan het transformeren van animaties naar animaties van eigenschappen die lay-outwijzigingen veroorzaken. Animeer overgangen op een manier die context en continuïteit van staat tot staat biedt.
+
 #### De CLS van McDonalds is 0.29
 ![Schermafbeelding 2022-04-26 172321](https://user-images.githubusercontent.com/69635977/165336573-ecb47bea-28c1-4f99-8d97-c6d693f294da.png)
 
