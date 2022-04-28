@@ -43,7 +43,7 @@ De TTI van McDonalds is 5.3 s. Een verbetering die een bijzonder groot effect ka
 
 De Speed Index van McDonalds is 4.7 s. 
 
-Hoewel alles wat je kan doen om de laadsnelheid van de pagina te verbeteren, de snelheidsindexscore zal verbeteren, zou het aanpakken van problemen die door deze diagnostische audits worden ontdekt, een bijzonder grote impact moeten hebben:
+#### Hoewel alles wat je kan doen om de laadsnelheid van de pagina te verbeteren, de snelheidsindexscore zal verbeteren, zou het aanpakken van problemen die door deze diagnostische audits worden ontdekt, een bijzonder grote impact moeten hebben:
 - Minimaliseer het hoofddraadwerk
 - Verkort de uitvoeringstijd van JavaScript
 - Zorg ervoor dat tekst zichtbaar blijft tijdens het laden van webfonts
@@ -55,7 +55,7 @@ Hoewel alles wat je kan doen om de laadsnelheid van de pagina te verbeteren, de 
 
 De TBT van McDonalds is 1,410 ms. 
 
-Over het algemeen zijn de meest voorkomende oorzaken van lange taken:
+#### Over het algemeen zijn de meest voorkomende oorzaken van lange taken:
 - Onnodig laden, parseren of uitvoeren van JavaScript. Tijdens het analyseren van uw code in het Performance-paneel ontdekt u misschien dat de hoofdthread werk doet dat niet echt nodig is om de pagina te laden. Het verminderen van JavaScript-payloads met codesplitsing, het verwijderen van ongebruikte code of het efficiënt laden van JavaScript van derden zou uw TBT-score moeten verbeteren.
 - Inefficiënte JavaScript-instructies. Stel dat u na analyse van uw code in het deelvenster Prestaties een aanroep ziet naar document.querySelectorAll('a') die 2000 nodes retourneert. Door uw code te herstructureren om een meer specifieke selector te gebruiken die slechts 10 nodes retourneert, zou uw TBT-score moeten verbeteren.
 
@@ -72,14 +72,13 @@ Over het algemeen zijn de meest voorkomende oorzaken van lange taken:
 
 De LCP van McDonalds is 0.29. 
 
-LCP wordt voornamelijk beïnvloed door vier factoren:
+#### LCP wordt voornamelijk beïnvloed door vier factoren:
 - Trage serverreactietijden
 - Render-blokkerende JavaScript en CSS
 - Laadtijden van bronnen
 - Weergave aan de client side
 
-Individuele performance technieken die LCP kunnen verbeteren:
-
+#### Individuele performance technieken die LCP kunnen verbeteren:
 - Pas direct laden toe met het PRPL-patroon
 - Het kritieke weergavepad optimaliseren
 - Optimaliseren van CSS
