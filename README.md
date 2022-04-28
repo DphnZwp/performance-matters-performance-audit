@@ -70,7 +70,22 @@ Over het algemeen zijn de meest voorkomende oorzaken van lange taken:
 
 ![Schermafbeelding 2022-04-26 172306](https://user-images.githubusercontent.com/69635977/165336550-c568405a-ccfb-4dd1-b924-c9d00b5af628.png)
 
-De LCP van McDonalds is 0.29.
+De LCP van McDonalds is 0.29. 
+
+LCP wordt voornamelijk beïnvloed door vier factoren:
+- Trage serverreactietijden
+- Render-blokkerende JavaScript en CSS
+- Laadtijden van bronnen
+- Weergave aan de client side
+
+Individuele performance technieken die LCP kunnen verbeteren:
+
+- Pas direct laden toe met het PRPL-patroon
+- Het kritieke weergavepad optimaliseren
+- Optimaliseren van CSS
+- Optimaliseren van afbeeldingen
+- Weblettertypen optimaliseren
+- Optimaliseer van JavaScript (voor client-rendered sites)
 
 #### Mogelijkheden
 - Verminder ongebruikt JavaScript
