@@ -6,7 +6,7 @@ De website van McDonalds met informatie over McDonalds en het restaurant.
 ![FireShot Capture 002 - McDonald's Nederland - McDonald's - www mcdonalds com](https://user-images.githubusercontent.com/69635977/165352882-00c3dcd9-786d-4015-8972-75f8860475f8.png)
 
 ## ContentAudit
-De website van McDonalds heeft informatie over het menu, actuele informatie, services, extra informatie over voedsel kwaliteit en informatie wat je kan doen met je familie. Ik heb een performance analyse gedaan voor deze website.
+De website van McDonalds heeft informatie over het menu, actuele informatie, services, extra informatie over voedsel kwaliteit en informatie wat je kan doen met je familie. Ik heb een performance analyse gedaan voor deze website met behulp van Lighthouse.
 
 ### Datum
 Getest op 25 april 2022
@@ -21,7 +21,7 @@ De website heeft 86 requests en heeft een *Finish* tijd van 21.86 s en een *Load
 
 De *Finish* tijd in Chrome Devtools bevat de asynchroon laden (niet -blokkerende) objecten/-elementen op de pagina die kunnen blijven downloaden na de ONLOAD -gebeurtenis voor de pagina is geladen.
 
-De reactietijd voor een website betekent in het algemeen de *Load* tijd, omdat dat waarneembaar is voor de gebruiker en op dit punt kan de gebruiker zien dat de browser is voltooid en de pagina klaar is op hun scherm.
+De reactietijd voor een website betekent in het algemeen de *Load* tijd, omdat dat waarneembaar is voor de gebruiker en op dit punt kan de gebruiker zien dat de browser is voltooid en de pagina klaar is op het scherm.
 
 ![Schermafbeelding 2022-04-28 233046](https://user-images.githubusercontent.com/69635977/165849135-10f7c71d-d5cc-4f70-8b2e-d57657e244c9.png)
 
