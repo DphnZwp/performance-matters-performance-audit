@@ -1,6 +1,6 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+# Performance audit McDonalds
 De website van McDonalds met informatie over McDonalds en het restaurant.
 
 ![FireShot Capture 002 - McDonald's Nederland - McDonald's - www mcdonalds com](https://user-images.githubusercontent.com/69635977/165352882-00c3dcd9-786d-4015-8972-75f8860475f8.png)
