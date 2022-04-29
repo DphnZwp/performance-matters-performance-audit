@@ -19,9 +19,13 @@ Getest op 25 april 2022
 ### Netwerk test
 De website heeft 86 requests en heeft een *Finish* tijd van 21.86 s en een *Load* tijd van 21.03 s wanneer er snelle 3g internet is zonder cache.
 
-De *Finish* tijd in Chrome Devtools bevat de asynchroon laden (niet -blokkerende) objecten/-elementen op de pagina die kunnen blijven downloaden na de ONLOAD -gebeurtenis voor de pagina is geladen.
+*Transfered* betekend van het netwerk, de rest (van de 758 kB in totaal) was afkomstig uit de cache.
 
-De reactietijd voor een website betekent in het algemeen de *Load* tijd, omdat dat waarneembaar is voor de gebruiker en op dit punt kan de gebruiker zien dat de browser is voltooid en de pagina klaar is op het scherm.
+*Finish* is het tijdstempel van de laatste resource, dus het verandert telkens wanneer een nieuw verzoek wordt gedaan. De *Finish* tijd in Chrome Devtools bevat de asynchroon laden (niet -blokkerende) objecten/-elementen op de pagina die kunnen blijven downloaden na de ONLOAD -gebeurtenis voor de pagina is geladen.
+
+*DOMContentLoaded* is de tijdstempel van de DOMContentLoaded-gebeurtenis: geactiveerd wanneer het oorspronkelijke HTML-document volledig is geladen en geparseerd, zonder te wachten tot stylesheets, afbeeldingen en subframes klaar zijn met laden
+
+*Load* is het tijdstempel van de laadgebeurtenis: geactiveerd wanneer een resource en de afhankelijke resources zijn geladen. De reactietijd voor een website betekent in het algemeen de *Load* tijd, omdat dat waarneembaar is voor de gebruiker en op dit punt kan de gebruiker zien dat de browser is voltooid en de pagina klaar is op het scherm.
 
 ![Schermafbeelding 2022-04-28 233046](https://user-images.githubusercontent.com/69635977/165849135-10f7c71d-d5cc-4f70-8b2e-d57657e244c9.png)
 
